@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionTest" duration-ms="11589" started-at="2020-06-24T09:41:22Z" finished-at="2020-06-24T09:41:34Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="11589" started-at="2020-06-24T09:41:22Z" finished-at="2020-06-24T09:41:34Z">
+      <class name="com.framework.testcases.TC_001_Validate_Login_Page">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@312aa7c]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-06-24T15:11:22Z" finished-at="2020-06-24T15:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.testcases.TC_001_Validate_Login_Page.tC_001_Validate_Login_Page(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_001_Validate_Login_Page(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@312aa7c]" name="tC_001_Validate_Login_Page" duration-ms="11047" started-at="2020-06-24T15:11:22Z" data-provider="getData" finished-at="2020-06-24T15:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, Password=Jakay07@, Runmode=Y, Expected_Result=Jakay M, Email=josephkuruvilla891@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_001_Validate_Login_Page -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@312aa7c]" name="afterMethod" is-config="true" duration-ms="457" started-at="2020-06-24T15:11:33Z" finished-at="2020-06-24T15:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_001_Validate_Login_Page status=SUCCESS method=TC_001_Validate_Login_Page.tC_001_Validate_Login_Page(java.util.Hashtable)[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@312aa7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.framework.testcases.TC_001_Validate_Login_Page -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- RegressionTest -->
+</testng-results>
